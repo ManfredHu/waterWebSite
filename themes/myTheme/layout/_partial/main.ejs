@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <%- partial('_partial/sidebar', {post: post}) %>
+    <div class="col-xs-12 col-sm-9">
+      <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost" >
+        <div id="articleInner" class="article-inner">
+          <%- partial('post/gallery') %>
+          <div class="article-entry" itemprop="articleBody">
+            <% if (post.excerpt && index){ %>
+              <%- post.excerpt %>
+              <p class="article-more-link">
+                <a href="<%- url_for(post.path) %>#more"><%= __('read_more') %></a>
+              </p>
+            <% } else { %>
+              <%- post.content %>
+            <% } %>
+          </div>
+      </article>
+    </div>
+  </div>
+  <%- partial('_partial/footer', null, {}) %>
+</div>

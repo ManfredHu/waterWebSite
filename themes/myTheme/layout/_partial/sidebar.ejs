@@ -1,0 +1,26 @@
+<!--<div class="col-xs-6 col-sm-3" id="sidebar" role="navigation">
+  <div class="list-group">
+    <a href="#" class="list-group-item active">Link</a>
+    <a href="#" class="list-group-item">Link</a>
+    <a href="#" class="list-group-item">Link</a>
+    <a href="#" class="list-group-item">Link</a>
+    <a href="#" class="list-group-item">Link</a>
+    <a href="#" class="list-group-item">Link</a>
+    <a href="#" class="list-group-item">Link</a>
+    <a href="#" class="list-group-item">Link</a>
+    <a href="#" class="list-group-item">Link</a>
+    <a href="#" class="list-group-item">Link</a>
+  </div>
+</div>
+-->
+
+<aside id="sidebar" class="col-xs-6 col-sm-3">
+    <div id="toc" class="toc-article">
+        <!--<strong class="toc-title"><%= __('contents') %></strong>-->
+        <% if (toc(post.content) != ""){ %>
+            <%- toc(post.content,{class: 'nav nav-pills nav-stacked',list_number:false}) %>
+        <% } else { %>
+            <ol class="toc"><%= __('none') %></ol>
+        <% } %>
+    </div>
+</aside>

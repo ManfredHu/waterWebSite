@@ -1,0 +1,53 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+
+#--------------------------------------------------------
+# 公司名
+companyName: 广东品正水业科技有限公司
+
+# 作者名
+authorName: 市场营销中心品牌管理部
+
+# 顶部导航栏
+menuConfig: 
+  主页: /
+  新闻: /
+  产品: /
+  我们: /about
+  联系: /about/#联系方式
+  
