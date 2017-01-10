@@ -1,0 +1,9 @@
+.aboutMain p{
+    text-indent: 2rem;
+}
+
+.aboutMain h2{
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #dbd4cd;
+    margin-bottom: 1.5rem;
+}
