@@ -95,19 +95,6 @@ body {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (min-width: 500px) {
-  .carousel {
-    height: 200px;
-  }
-  /* Declare heights because of positioning of img element */
-  .carousel .item {
-    height: 200px;
-  }
-  .carousel-inner > .item > img {
-    height: 200px;
-  }
-}
-
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
@@ -137,32 +124,11 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
-
-  .carousel {
-    height: 512px;
-  }
-  /* Declare heights because of positioning of img element */
-  .carousel .item {
-    height: 512px;
-  }
-  .carousel-inner > .item > img {
-    height: 512px;
-  }
 }
 
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
-  }
-  .carousel {
-    height: 662px;
-  }
-  /* Declare heights because of positioning of img element */
-  .carousel .item {
-    height: 662px;
-  }
-  .carousel-inner > .item > img {
-    height: 662px;
   }
 }
 
