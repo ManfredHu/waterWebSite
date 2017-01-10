@@ -166,15 +166,3 @@ body {
   }
 }
 
-@media (min-width: 1200px) { 
-  .carousel {
-    height: 760px;
-  }
-  /* Declare heights because of positioning of img element */
-  .carousel .item {
-    height: 760px;
-  }
-  .carousel-inner > .item > img {
-    height: 760px;
-  }
-}
