@@ -7,3 +7,11 @@
     border-bottom: 1px solid #dbd4cd;
     margin-bottom: 1.5rem;
 }
+
+/*联系*/
+.contact{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

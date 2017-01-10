@@ -39,9 +39,6 @@ body {
 
 /* Carousel base class */
 .carousel {
-  position:relative;
-  overflow:hidden;
-  z-index:1;
   height: 800px;
   margin-bottom: 60px;
 }
@@ -63,9 +60,6 @@ body {
   left: 0;
   min-width: 100%;
   height: 800px;
-}
-.carousel-inner > .item > span{
-  background-size:cover;
 }
 
 
