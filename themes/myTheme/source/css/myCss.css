@@ -15,3 +15,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.contact .media{
+    border-bottom: 1px solid #dbd4cd;
+    padding-bottom: 1rem;
+}
+
+.contact .media:last-child{
+    border-bottom: 0px solid #dbd4cd;
+}
