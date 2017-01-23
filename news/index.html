@@ -192,7 +192,7 @@
 
 <footer>
 <p class="pull-right"><a href="#">返回顶部</a></p>
-<p>&copy; 2016 Company, Inc. <a href="#">广东品正水业科技有限公司</a> &middot; <a href="#">市场营销中心品牌管理部</a></p>
+<p>&copy; 2016 Company, Inc. <a href="#">广东品正水业科技有限公司</a> &middot; <a href="#manfredhu">市场营销中心品牌管理部</a></p>
 <p>联系电话：400-900-6820</p>
 <p>地址：广东省东莞市南城区水濂山大道96号联科国际信息产业园3A栋502室</p>
 </footer>
@@ -203,5 +203,20 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/dist/ie10-viewport-bug-workaround.js"></script>
     <script src="/js/myJs.js"></script>
+    <script>
+    (function(){
+        //百度链接提交
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
 </body>
 </html>
