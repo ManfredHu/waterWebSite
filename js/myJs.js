@@ -1,6 +1,15 @@
 $(document).ready(function(){
     autoSetBanner();
     //fixNavBar();
+    //---------------------------
+    // 视频
+    if($('#my-video').length > 0){
+        var width = $('.container').width();
+        videojs('my-video', { aspectRatio: '16:9', width: width});
+        // $('#my-video').width(width).height(width/1920*1080);
+        // $('#my-video').width('100%');
+        // var videoHeight = $('#my-video').width();
+    }
 });
 
 $(window).resize(function(){
