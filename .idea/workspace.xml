@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f19cf4-f437-4fa7-911e-7bf77f0e2470" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/_posts/contact-1.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/_posts/contact.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/_posts/news.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/hexo-theme-landscape" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/myTheme/source/image/banner/banner2.jpg" afterPath="$PROJECT_DIR$/themes/myTheme/source/image/banner/banner2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/myTheme/source/image/banner/banner3.jpg" afterPath="$PROJECT_DIR$/themes/myTheme/source/image/banner/banner3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/about/index.html" afterPath="$PROJECT_DIR$/source/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/myTheme/_config.yml" afterPath="$PROJECT_DIR$/themes/myTheme/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/myTheme/layout/_partial/carousel.ejs" afterPath="$PROJECT_DIR$/themes/myTheme/layout/_partial/carousel.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/myTheme/layout/_partial/footer.ejs" afterPath="$PROJECT_DIR$/themes/myTheme/layout/_partial/footer.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/myTheme/layout/_partial/head.ejs" afterPath="$PROJECT_DIR$/themes/myTheme/layout/_partial/head.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/myTheme/layout/layout.ejs" afterPath="$PROJECT_DIR$/themes/myTheme/layout/layout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/myTheme/source/css/myCss.css" afterPath="$PROJECT_DIR$/themes/myTheme/source/css/myCss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/myTheme/source/js/myJs.js" afterPath="$PROJECT_DIR$/themes/myTheme/source/js/myJs.js" />
     </list>
     <ignored path="waterWebSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -204,8 +186,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13782541">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.022970904">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
           <folding />
         </state>
       </provider>
