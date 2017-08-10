@@ -7,5 +7,21 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<%- config.root %>dist/ie10-viewport-bug-workaround.js"></script>
     <script src="<%- config.root %>js/myJs.js"></script>
+    <script src="<%- config.root %>js/video.js"></script>
+    <script>
+    (function(){
+        //百度链接提交
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
 </body>
 </html>

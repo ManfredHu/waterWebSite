@@ -24,3 +24,25 @@
 .contact .media:last-child{
     border-bottom: 0px solid #dbd4cd;
 }
+
+/*产品*/
+.product__margin .col-md-5{
+    text-align:right;
+}
+.product__margin {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .product__margin .col-md-5 {
+        text-align:left;
+    }
+    .product__margin .name{
+        float:left;
+        width:200px;
+    }
+    .product__margin{
+        margin:10px auto;
+        width:500px;
+    }
+}

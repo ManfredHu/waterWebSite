@@ -21,6 +21,7 @@
   %>
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="baidu-site-verification" content="NvNX20qjqh" />
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
   <% if (theme.rss){ %>
     <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
@@ -40,4 +41,15 @@
   <link href="<%- config.root %>css/myCss.css" rel="stylesheet">
   <link href="<%- config.root %>favicon.ico" type="image/x-icon" rel="icon">
   <script src="<%- config.root %>dist/ie-emulation-modes-warning.js"></script>
+  <!-- baidu 搜索 -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?5357366478bcae562458acdaaa2f30d1";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+  <link href="<%- config.root %>css/video-js.css" rel="stylesheet">
 </head>

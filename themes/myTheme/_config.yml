@@ -29,7 +29,7 @@ show_count: false
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
+favicon:
 twitter:
 google_plus:
 fb_admins:
@@ -47,7 +47,7 @@ authorName: 市场营销中心品牌管理部
 menuConfig: 
   主页: /
   新闻: /
-  产品: /
+  产品: /product
   我们: /about
   联系: /contact
   
